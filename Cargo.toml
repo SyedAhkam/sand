@@ -1,5 +1,7 @@
 [workspace]
 members = [
-    "sand_core"
+    "sand",
+    "sand_renderer",
+    "sand_widgets"
 ]
 
