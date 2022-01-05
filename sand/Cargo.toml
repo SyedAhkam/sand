@@ -9,3 +9,4 @@ edition = "2021"
 sand_widgets = { path="../sand_widgets" }
 ndk = "0.5"
 ndk-glue = "0.5"
+log = "0.4.14"

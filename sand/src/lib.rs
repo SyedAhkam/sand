@@ -7,9 +7,8 @@ pub use sand_widgets::{
     BuildContext
 };
 
-pub use ndk_glue::main;
+pub(crate) use log::*;
 
 pub fn run_app(app: impl StatelessWidget + std::fmt::Debug) {
-    println!("I run: {:?}", app);
-
+    info!("Starting app: {:?}. Built using the Sand UI framework.", app)
 }
