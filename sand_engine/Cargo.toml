@@ -1,13 +1,11 @@
 [package]
-name = "sand"
+name = "sand_engine"
 version = "0.0.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sand_widgets = { path="../sand_widgets" }
-sand_engine = { path="../sand_engine" }
 ndk = "0.6"
 ndk-glue = "0.6"
-log = "0.4.14"
+log = "0.4"
