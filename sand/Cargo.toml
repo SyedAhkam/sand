@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 sand_widgets = { path="../sand_widgets" }
+ndk = "0.5"
+ndk-glue = "0.5"
