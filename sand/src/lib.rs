@@ -16,7 +16,4 @@ pub fn run_app(app: impl StatelessWidget + std::fmt::Debug) {
 
     // Let the engine take over
     Engine::new().start();
-
-    // Finish activity when the main loop returns
-    ndk_glue::native_activity().finish()
 }

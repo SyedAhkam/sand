@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 ndk = "0.6"
-ndk-glue = "0.6"
 log = "0.4"
-libc = "0.2.112"
+#winit = "0.26"
+winit = {git = "https://github.com/SyedAhkam/winit"}
+ndk-glue = "*"
