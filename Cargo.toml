@@ -3,6 +3,7 @@ members = [
     "sand",
     "sand_engine",
     "sand_renderer",
-    "sand_widgets"
+    "sand_widgets",
+    "examples/basic"
 ]
 

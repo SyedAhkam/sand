@@ -15,5 +15,5 @@ pub fn run_app(app: impl StatelessWidget + std::fmt::Debug) {
     info!("Starting app: {:?}. Built using the Sand UI framework.", app);
 
     // Let the engine take over
-    Engine::new().start();
+    Engine::default().start();
 }

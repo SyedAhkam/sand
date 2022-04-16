@@ -1,0 +1,10 @@
+/target
+Cargo.lock
+
+# Ignore phpandroid.phar
+phpandroid.phar
+
+# Ignore gradle files
+app/build
+.gradle
+jniLibs
