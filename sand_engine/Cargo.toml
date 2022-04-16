@@ -7,6 +7,9 @@ edition = "2021"
 
 [dependencies]
 ndk = "0.6"
-ndk-glue = "0.6"
 log = "0.4"
-libc = "0.2.112"
+#winit = "0.26"
+#winit = {git = "https://github.com/SyedAhkam/winit"}
+winit = {git = "https://github.com/rust-windowing/winit"}
+ndk-glue = "0.6"
+sand_renderer = {path="../sand_renderer"}
